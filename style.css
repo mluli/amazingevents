@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 10vh;
+    background-color: aliceblue;
+}
+main{
+    height: 80vh;
+    width: 100vh;
+
+}
+form{
+    padding: 2rem;
+    background-color: blueviolet;
+}
+fieldset{
+    padding: 1rem;
+}
+input{
+    margin: 0.5rem;
+}
+.icon{
+flex-wrap: wrap;
+}
