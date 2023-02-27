@@ -15,3 +15,4 @@ for(let event of data.events){
 // </div>`;
 }
 console.log(htmlEvents);
+let pillNav2= "";
