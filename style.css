@@ -26,6 +26,9 @@ header{
     height: 10vh;
     background-color: aliceblue;
 }
+.nav-item{
+    flex-wrap: wrap;
+}
 .checkbox{
 }
 main{
