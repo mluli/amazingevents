@@ -14,13 +14,13 @@ body {
     --bs-table-bg: var(--bs-gray-100);
     --bs-table-border-color: transparent;
   }
-.h1{
-flex-wrap: wrap;
-flex-direction: inherit;
-flex-grow: inherit;
+
+.checkbox{
+    margin: 2em;
 }
+
 .container{
-    background-color: blueviolet;
+    
 }
 header{
     height: 10vh;
@@ -32,14 +32,16 @@ header{
 .checkbox{
 }
 main{
-    height: 80vh;
-    width: 100vh;
+ 
 
 }
 form{
-    padding: 2rem;
-    background-color: blueviolet;
+
+    padding: 5em;
+  
 }
+
+
 fieldset{
     padding: 1rem;
 }
