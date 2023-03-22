@@ -119,6 +119,75 @@
         </tbody>
         </table>
       </div>
+      <div class="container-fluid border border-dark fondo1 p-4">
+        <div class="row">
+            <div class="col-4 d-flex align-items-center p-0">
+                <a href="./contact.html">
+                    <img class="w-60 flecha" src="./assets/images/atras.png" alt="flecha atras">
+                </a>
+            </div>
+            <div class="col-4 d-flex align-items-center justify-content-center p-0">
+                <h1 class="text-center">
+                    Stats
+                </h1>
+            </div>
+            <div class="col-4 d-flex align-items-center justify-content-end p-0">
+                <a href="#">
+                    <img class="w-60 flecha imagenGrisada" src="./assets/images/proximo.png" alt="flecha siguiente">
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="overflow-y-scroll">
+    <div class="m-5">
+        <table class="table table-hover table-bordered border-1 border-dark sombreado1 m-0">
+            <thead>
+                <tr class="border border-dark fondo0">
+                    <th colspan="3">Events statistics</th>
+                </tr>
+            </thead>
+            <tbody id="generalEventsStatsTableBody">
+                <tr>
+                    <th class="w-25"><b>Events with highest percentage of attendance</b></th>
+                    <th class="w-25"><b>Events with lowest percentage of attendance</b></th>
+                    <th class="w-25"><b>Event with larger capacity</b></th>
+                </tr>
+               
+            </tbody>
+        </table>
+        <table class="table table-hover table-bordered border-1 border-dark sombreado1 m-0">
+            <thead>
+                <tr class="border border-dark fondo0">
+                    <th colspan="3">Upcoming events statistics by category</th>
+                </tr>
+            </thead>
+            <tbody id="upcomingEventsStatsTableBody">
+                <tr>
+                    <th class="w-25"><b>Categories</b></th>
+                    <th class="w-25"><b>Revenues (Estimated)</b></th>
+                    <th class="w-25"><b>Percentage of attendance (Estimated)</b></th>
+                </tr>
+                <!-- Renglones con datos insertados dinámicamente -->
+            </tbody>
+        </table>
+        <table class="table table-hover table-bordered border-1 border-dark sombreado1 m-0">
+            <thead>
+                <tr class="border border-dark fondo0">
+                    <th colspan="3">Past Events statistic by category</th>
+                </tr>
+            </thead>
+            <tbody id="pastEventsStatsTableBody">
+                <tr>
+                    <th class="w-25"><b>Categories</b></th>
+                    <th class="w-25"><b>Revenues</b></th>
+                    <th class="w-25"><b>Percentage of attendance</b></th>
+                </tr>
+                <!-- Renglones con datos insertados dinámicamente -->
+            </tbody>
+        </table>
+    </div>
         <footer>
             <footer class="py-2 my-1 mt-auto"><div class="icon">
                 <ul class="nav justify-content-center border-bottom pb-3 mb-3">
